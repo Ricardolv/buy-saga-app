@@ -26,7 +26,7 @@ public class BuyChoreographyResource {
 
         buy(++id, 20);
         buy(++id, 30);
-        buy(++id, 30);
+        buy(++id, 40);
         buy(++id, 25);
 
         return Response.ok().build();

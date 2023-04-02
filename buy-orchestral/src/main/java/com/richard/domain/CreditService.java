@@ -34,4 +34,8 @@ public class CreditService {
 
     }
 
+    public long getCreditTotal() {
+        return this.creditTotal;
+    }
+
 }

@@ -26,7 +26,7 @@ public class OrderService {
 
         try {
             creditService.newOrderValue(id, value);
-            System.out.println(String.format("Perdido %d registrado no valor de %d", id, value));
+            System.out.println(String.format("Perdido %d registrado no valor de %d. Saldo disponivel: %d", id, value, creditService.getCreditTotal()));
             
         } catch (IllegalArgumentException e) {
 
